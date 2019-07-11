@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>guru.springframework</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1.SNPASHOT</version>
     <packaging>pom</packaging>
     <modules>
         <module>pet-clinic-data</module>
@@ -43,8 +43,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:hochanFS/sfg-pet-clinic.git</developerConnection>
-    <tag>sfg-pet-clinic-0.0.1</tag>
+        <developerConnection>scm:git:https://github.com/hochanFS/sfg-pet-clinic.git</developerConnection>
   </scm>
 
 </project>
