@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>guru.springframework</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
         <module>pet-clinic-data</module>
@@ -28,6 +28,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -36,6 +37,9 @@
                     <goals>
                         install
                     </goals>
+                    <checkModificationExcludes>
+                        <checkModificationExclude>pom.xml</checkModificationExclude>
+                    </checkModificationExcludes>
                 </configuration>
             </plugin>
         </plugins>
@@ -45,7 +49,6 @@
         <developerConnection>
             scm:git:github.com:hochanFS/sfg-pet-clinic.git
         </developerConnection>
-      <tag>sfg-pet-clinic-0.0.1</tag>
-  </scm>
+    </scm>
 
 </project>
