@@ -1,21 +1,23 @@
 # Spring Pet Clinic
 
-Welcome to Spring Pet Clinic Web site.
+Welcome to Spring Pet Clinic repository.
 
 CircleCI test:
 [![CircleCI](https://circleci.com/gh/hochanFS/sfg-pet-clinic.svg?style=svg)](https://circleci.com/gh/hochanFS/sfg-pet-clinic)
 
-This repository intends to keep track of my studying for the 50+ hour Spring course, available at https://www.udemy.com/spring-framework-5-beginner-to-guru/learn.
+# Introduction
+This repository intends to keep track of my studying for the 50+ hour Spring course, available at https://www.udemy.com/course/spring-framework-5-beginner-to-guru/.
 
-Topics covered:
+Running this code will launch a web application.
+
+# Tools used for this repository
 * Maven
 * Spring Boot
-    * MVC
-    * Dependency injections
 * Hibernate
 * Thymeleaf
-* Unit test (JUnit)
+* JUnit
 * Mockito
 * Continuous Integration test (CircleCI)
-* Best practices of coding (SOLID principles)
 * IntelliJ Idea Ultimate
+* Tomcat 9.0
+* Java 11.0.4
